@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #6E5838;
+    --background-color: #F8F5F1;
+    --dark-background-color: #BCBCBC;
+    --text-color: #080808;
+
+    --base-padding: 120px;
+    --large-padding: 320px;
+}
+
+::selection {
+    background-color: #4f3f28;
+    color: var(--background-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Joan", serif;
+    font-weight: 100;
+}
